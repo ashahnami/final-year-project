@@ -1,3 +1,15 @@
 version https://git-lfs.github.com/spec/v1
 oid sha256:32915aadbecbef2a74fc0bb5dd7af1057694e54d22d443dfe078f46cf425c057
 size 636
+
+This project consists of three main files:
+
+1. `image_frame_capture.ipynb`: This file is responsible for downloading videos from Youtube and extracting frames from them.
+2. `automated_annotation.ipynb`: This file is responsible for annotating the frames extracted from the videos.
+3. `main.ipynb`: This file is responsible for creating the dataset and training/testing the model.
+
+Dependencies:
+
+Files `image_frame_capture.ipynb` and `automated_annotation.ipynb` make use of the requirements specified in `annotation_requirements.txt`.
+
+The file `main.ipynb` makes use of the requirements specified in `main_requirements.txt`.
